@@ -58,9 +58,10 @@ function Main(){
       };
 return(
 <div>
-<h1 onload={TextRotate}>This pen is<span class="txt-rotate" data-period="2000" data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'></span>
+<h1 onload={TextRotate}>I build webApps using <span class="txt-rotate" data-period="2000" data-rotate='[ "ReactJs.", "NodeJs.", "graphQl.", "Sql.", "MERN" ]'></span>
 </h1>
-<h2>Welcom To Mo Portfolio</h2>
+<br></br>
+<h2>Welcome To Mahmoud Portfolio</h2>
 </div>
 );
 }

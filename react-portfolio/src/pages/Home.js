@@ -1,31 +1,40 @@
 import React from 'react';
 import Main from '../compnents/Main/index';
-import Projects from '../compnents/Projects/index'
+import Projects from '../compnents/Projects/index';
+import defaultPhoto from '../assets/image/defaultPhoto.JPG';
+import AboutMe from '../compnents/AboutMe/index'
+import Skills from '../compnents/Skills/index'
 
 function Home(){
     return(
         <div>
   <section class="et-hero-tabs">
+        <div id="myBio" >
+           <img class="img-responsive img-circle" src={defaultPhoto} alt="pic"></img>
+        </div>
+        <br></br>
       <Main />
     {/* <h1>STICKY SLIDER NAV</h1>
     <h3>Sliding content with sticky tab nav</h3> */}
     <div class="et-hero-tabs-container">
-      <a class="et-hero-tab" href="#tab-es6">ABout Me</a>
+      <a class="et-hero-tab" href="#tab-es6">About Me</a>
       <a class="et-hero-tab" href="#tab-flexbox">Tools</a>
       <a class="et-hero-tab" href="#tab-react">Projects</a>
-      <a class="et-hero-tab" href="#tab-other">Rusme</a>
-      <a class="et-hero-tab" href="#tab-angular">Contact Me</a>
+      <a class="et-hero-tab" href="#tab-angular">Resume</a>
+      <a class="et-hero-tab" href="#tab-other">Contact Me</a>
       <span class="et-hero-tab-slider"></span>
     </div>
   </section>
   <main class="et-main">
     <section class="et-slide" id="tab-es6">
-      <h1>ES6</h1>
-      <h3>something about es6</h3>
+      <AboutMe />
+      {/* <h1>ES6</h1>
+      <h3>something about es6</h3> */}
     </section>
     <section class="et-slide" id="tab-flexbox">
-      <h1>Flexbox</h1>
-      <h3>something about flexbox</h3>
+      <Skills />
+      {/* <h1>Flexbox</h1>
+      <h3>something about flexbox</h3> */}
     </section>
     <section class="et-slide" id="tab-react">
         <Projects />

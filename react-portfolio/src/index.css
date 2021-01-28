@@ -13,7 +13,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #eee;
+  background-image: url(./assets/image/bg.jpg);
   text-align: center;
   padding: 0 2em;
 }
