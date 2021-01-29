@@ -1,7 +1,10 @@
 import React from 'react';
 import './style.css';
 import speedometer from "./assets/images/speedometer-48.png"
-import defaultPhoto from "./assets/images/defaultPhoto.JPG";
+import rocket from "./assets/images/rocket-48.png"
+import tablet from "./assets/images/tablet-2-48.png"
+import lightbulb from "./assets/images/lightbulb-2-48.png"
+import defaultPhoto from "./assets/images/defaultPhoto1.JPG";
 
 
 function AboutMe (){
@@ -22,32 +25,32 @@ function AboutMe (){
                                 </div>
                         </div>
                         <div class="col-md-3 text-center">
-                                <div class="hexagon fb mx-auto">
-                                    <img src={speedometer} alt="speed" /> 
+                            <div class="hexagon fb mx-auto">
+                                <img src={rocket} alt="rocket"/>
                                 </div>
-                                <h4 class="bullet-title">Fast</h4>
+                                <h4 class="bullet-title">Dynamic</h4>
                                 <div class="bullet-text">
-                                    Fast loading times and lag free interaction.
-                                </div>
+                                Websites don't have to be static. My designs bring the page to life.
+                            </div>
                         </div>
                         <div class="col-md-3 text-center">
                                 <div class="hexagon fb mx-auto">
-                                    <img src={speedometer} alt="speed" /> 
+                                <img src={tablet} alt="tablet"/>
                                 </div>
-                                <h4 class="bullet-title">Fast</h4>
+                                <h4 class="bullet-title">Responsive</h4>
                                 <div class="bullet-text">
-                                    Fast loading times and lag free interaction.
-                                </div>
+                                Optimized designs for any screen, big or small.
+                            </div>
                         </div>
                         <div class="col-md-3 text-center">
-                                <div class="hexagon fb mx-auto">
-                                    <img src={speedometer} alt="speed" /> 
+                            <div class="hexagon fb mx-auto">
+                                <img src={lightbulb} alt="lightbulb"/>
                                 </div>
-                                <h4 class="bullet-title">Fast</h4>
+                                <h4 class="bullet-title">Intuitive</h4>
                                 <div class="bullet-text">
-                                    Fast loading times and lag free interaction.
+                                    Strong preference for easy to use, intuitive UI/UX.
                                 </div>
-                        </div>
+                            </div>
                     </div>  
                     <div class="row">
                     

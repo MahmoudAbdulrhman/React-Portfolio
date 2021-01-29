@@ -1,24 +1,25 @@
 import React from 'react';
 import Main from '../compnents/Main/index';
 import Projects from '../compnents/Projects/index';
-import defaultPhoto from '../assets/image/defaultPhoto.JPG';
+// import defaultPhoto from '../assets/image/defaultPhoto1.JPG';
 import AboutMe from '../compnents/AboutMe/index'
 import Skills from '../compnents/Skills/index'
+import Contact from '../compnents/Contact/index'
 
 function Home(){
     return(
         <div>
   <section class="et-hero-tabs">
-        <div id="myBio" >
+        {/* <div id="myBio" >
            <img class="img-responsive img-circle" src={defaultPhoto} alt="pic"></img>
-        </div>
+        </div> */}
         <br></br>
       <Main />
     {/* <h1>STICKY SLIDER NAV</h1>
     <h3>Sliding content with sticky tab nav</h3> */}
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-es6">About Me</a>
-      <a class="et-hero-tab" href="#tab-flexbox">Tools</a>
+      <a class="et-hero-tab" href="#tab-flexbox">Skills</a>
       <a class="et-hero-tab" href="#tab-react">Projects</a>
       <a class="et-hero-tab" href="#tab-angular">Resume</a>
       <a class="et-hero-tab" href="#tab-other">Contact Me</a>
@@ -46,8 +47,9 @@ function Home(){
       <h3>something about angular</h3>
     </section>
     <section class="et-slide" id="tab-other">
-      <h1>Other</h1>
-      <h3>something about other</h3>
+      <Contact />
+      {/* <h1>Other</h1>
+      <h3>something about other</h3> */}
     </section>
   </main>
         </div>
