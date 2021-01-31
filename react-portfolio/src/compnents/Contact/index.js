@@ -3,6 +3,9 @@ import React from "react"
 
 function Contact (){
     return(
+		<div>
+		  <h2 class="page-title red">Contact me</h2>
+		  <h3 class="title">How to reach out for me</h3>
         <div class="row">
 				<div class="col-md-auto mx-auto">
 					<form id="contact-form" action="mailto:mahmoudtheeb@gmail.com?subject=I saw your portfolio online"
@@ -16,6 +19,15 @@ function Contact (){
 						</div>
 					</form>
 				</div>
+			</div>
+		<br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
 			</div>
     )
 }

@@ -11,7 +11,9 @@ function AboutMe (){
 
     return(
         
-
+     <div>
+         <h2 class="page-title red">Who am I</h2>
+			<h3 class="title">Get to know me</h3>
         <div id="about-me">
             <div class="container">
                     <div class="row">
@@ -70,7 +72,8 @@ function AboutMe (){
                         </div>
                     </div>
             </div>
-        </div>    
+        </div>
+    </div>      
     );
 }
 
