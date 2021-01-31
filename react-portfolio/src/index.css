@@ -13,9 +13,12 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background-image: url(./assets/image/bg.jpg);
+  background-image: url(./assets/image/bg2.jpg);
   text-align: center;
   padding: 0 2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .et-hero-tabs h1, .et-slide h1 {
   font-size: 2rem;
@@ -37,6 +40,7 @@ a {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: #fff;
   z-index: 10;
+  
 }
 .et-hero-tabs-container--top {
   position: fixed;

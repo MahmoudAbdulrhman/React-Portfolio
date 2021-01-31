@@ -9,7 +9,12 @@ import Resume from '../compnents/Resume/index'
 
 function Home(){
     return(
-        <div>
+        <div style={{  
+          backgroundImage: "url(../../assets/image/bg.jpg)",
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+        }}>
   <section class="et-hero-tabs">
         <br></br>
       <Main />

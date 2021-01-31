@@ -5,6 +5,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     background-color:rgb(255, 255, 255);
+    
   }
   
     * {
@@ -29,6 +30,7 @@ body {
   
   h4 {
     font-size: 20px;
+
   }
   
   /* Nav */
@@ -134,9 +136,10 @@ body {
   
   /* About Me */
   
-  #about-me {
+  /* #about-me {
     background: whitesmoke;
-  }
+    border-radius: 5%;
+  } */
 
   
   .hexagon {
@@ -147,6 +150,7 @@ body {
     background-image: url('./assets/images/hexagon.png');
     background-size: 100% 100%;
     margin-top: 45px;
+    filter: drop-shadow(8px 8px 10px #5AA4B0)
   }
   
   .bullet-title {
@@ -175,7 +179,7 @@ body {
   }
   
   #headshot {
-    max-width: 350px;
+    max-width: 250px;
   }
   
   #headshot-title {
