@@ -16,20 +16,24 @@ function Skills(){
 				<h5><strong>Languages</strong></h5>
 				<ul>
 				<li>Javascript | NodeJS</li>
+				<li>HTML5| CSS</li>
 				</ul>
 				<h5><strong>Databases</strong></h5>
 				<ul>
 				<li>MongoDB</li>
 				<li>MySQL | MariaDB</li>
+				<li>GraphQl</li>
 				</ul>
 				<h5><strong>API</strong></h5>
 				<ul>
-				<li>REST</li>
+				<li>RESTFUl</li>
+				<li>CRUD</li>
 				</ul>
 				<h5><strong>Tools | Frameworks</strong></h5>
 				<ul>
+				<li>ReactJS</li>	
 				<li>ExpressJS</li>
-				<li>Webpack</li>
+				<li>MERN</li>
 				</ul>
 			</div>
 			<div class="col-sm-4">
@@ -38,7 +42,7 @@ function Skills(){
 				<ul>
 				<li>HTML5 (+Canvas)</li>
 				<li>CSS3 & Responsive</li>
-				<li>Stylus</li>
+				<li>Stylus & Bootstrap</li>
 				</ul>
 				<h5><strong>JavaScrpt</strong></h5>
 				<ul>
@@ -46,32 +50,21 @@ function Skills(){
 				<li>jQuery</li>
 				<li>React | React Router</li>
 				</ul>
-				<h5><strong>Tools | Frameworks</strong></h5>
-				<ul>
-				<li>Bootstrap</li>
-				<li>Font Awesome | Google fonts</li>
-				<li>Stylus | Less</li>
-				<li>Webpack</li>
-				</ul>
 			</div>
 			<div class="col-sm-4">
 				<h4><i class="fa fa-flask"></i> Other</h4>
-				<h5><strong>DevOps | AWS</strong></h5>
+				<h5><strong>npm lab</strong></h5>
 				<ul>
-				<li>EC2 Instance Admin</li>
-				<li>S3 Bucket Admin</li>
-				<li>Cache Cluster Admin</li>
-				<li>Virtual Cloud Admin</li>
-				</ul>
-				<h5><strong>Linux</strong></h5>
-				<ul>
-				<li>Certified RedHat Engineer</li>
-				<li>Certified CompTIA Linux</li>
-				</ul>
-				<h5><strong>Tools | Frameworks</strong></h5>
-				<ul>
-				<li>Docker</li>
-				<li>Bamboo CI Admin</li>
+				<li>JEST</li>
+				<li>ExpressJS</li>
+				<li>Stripe</li>
+				<li>Apollo</li>
+				<li>Redux</li>
+				<li>PWA</li>
+				<li>inquirer</li>
+				<li>Git</li>
+				<li>Heroku</li>
+				<li>Atlas</li>
 				</ul>
 			</div>
 			</div>
